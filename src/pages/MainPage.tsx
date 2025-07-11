@@ -10,6 +10,7 @@ const MainPage = () => {
     <>
       <div>MainPage 25.07.02 11:22</div>
       <button onClick={handleGoToLogin}>로그인 페이지로 이동</button>
+      <button onClick={() => navigate('/post-test')}>post 요청 테스트 페이지로 이동</button>
     </>
   )
 }
